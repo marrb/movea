@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
-import { ChevronUpIcon } from "@heroicons/react/outline";
+import { ChevronDownIcon } from "@heroicons/react/outline";
 
 interface MobileDropdownItemProps {
   MainTitle: string;
@@ -28,7 +28,7 @@ const MobileDropdownItem: React.FC<MobileDropdownItemProps> = ({
         >
           {MainTitle}
         </NavLink>
-        <ChevronUpIcon
+        <ChevronDownIcon
           onClick={() => setDropdownState(!dropDownState)}
           className={"w-8 h-8 " + (dropDownState ? "rotate-180" : "")}
         />

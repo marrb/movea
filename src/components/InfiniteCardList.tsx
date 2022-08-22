@@ -34,7 +34,7 @@ const InfiniteCardList: React.FC<CardListProps> = ({
     <Container>
       <div
         className={
-          "flex w-full overflow-x-auto snap-x gap-x-8 px-4 flex-wrap place-content-center"
+          "flex w-full overflow-x-auto snap-x gap-x-8 flex-wrap place-content-center"
         }
       >
         {query.isFetched &&
