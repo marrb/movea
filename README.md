@@ -27,7 +27,7 @@ The goal was to create a movie and tvshow overview site with the use of TMDB API
 ### Backend
 
 - [TMDB API](https://developers.themoviedb.org/3/getting-started/introduction)
-- HTTP Requests - [Axios](https://axios-http.com/docs/intro), [TanStack Query](https://tanstack.com/query/v4/?from=reactQueryV3&original=https://react-query-v3.tanstack.com/)
+- API Requests - [Axios](https://axios-http.com/docs/intro), [TanStack Query](https://tanstack.com/query/v4/?from=reactQueryV3&original=https://react-query-v3.tanstack.com/)
 
 
 ## Author
